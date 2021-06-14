@@ -1,0 +1,210 @@
+body{
+    background-color:black;
+    width: auto;
+    margin: auto;
+    width: 1250px;
+
+}
+@media (min-width:1380px){
+body{
+    background-color:#080707;
+    color: #F0F022;
+    margin: 20px;
+    zoom: -60%;
+}
+}
+
+body {
+    margin: 0; /* e uma boa pratica sempre zerar margem pois evita comportamento indesejado em alguns navegadores*/
+    padding: 0;
+    align-content: center;
+
+   
+}   
+   
+
+
+   .oneColFixCtr #container{
+
+       width: 780px; /*usando o valor menor 800px evita que navegadores como Chrome criem uma barra horizontal, por segurança colocamos 20 manos que o limite*/
+       background: #FFFFFF;
+       margin: 0 auto; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+
+   }
+
+   .comentario{
+       background-color: #FFFF33;
+   }
+
+#historia{
+    margin-left: 90px;
+}
+  h1{
+    color:yellow;
+    font-size: 60px;  
+    background-color:#070808 ;
+  }  
+
+h3{
+    margin: 20px;
+    color:#F8CB16 ;
+}
+
+pre{
+    color: #F0DA16;
+   
+}
+
+footer {
+    background-color:#161717 ;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 0.2px;
+    margin-top: 100px;
+    
+}
+
+img,video{
+    max-width: 100%;
+}
+
+nav {
+    background-color: #070808;
+    height:35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}   
+
+nav ul
+{
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+nav li{
+    display: inline;
+    padding: 10px;
+    margin: 0px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #CCCCCC;
+    padding: 8px 8px 8px 8px;
+}
+
+nav a:hover{
+    background-color: brown;
+}
+
+#josh{
+    margin-left: 700px;
+    margin-top: -2000px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+#tayler{
+
+   margin-left: 30px;
+
+}
+
+#A{
+    color:#F8CB16;
+    font-size: 12px;
+    text-align: left;
+    font-family: sans-serif;
+    
+}
+
+#B{
+   margin-left: 50px;
+}
+
+#C{
+    color:#F8CB16;
+   
+    margin-left: 700px;
+    margin-top: -960px;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+#E{
+    background-color: #2E2A29;
+}
+
+
+#best{
+    margin-left: 300px;
+    margin-top: -1112px;
+}
+
+#Vessel{
+    margin-left: 500px;
+    margin-top: -1070px;
+}
+
+
+#Migraine{
+    margin-left: 730px;
+    margin-top: -1000px;
+    margin-bottom: 600px;
+}
+
+#Violent{
+    margin-left: 930px;
+    margin-top: -1203px;
+    margin-bottom: 600px;
+}
+
+#face{
+    margin-top:-270px;
+    margin-left: -30px;
+}
+
+#Trench{
+    margin-top:-1090px;
+    margin-left: 200px;
+}
+
+#Turnes{
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+#pilots{
+    margin-top: 200px;
+}
+
+#destaques{
+    font-size: 14px;
+}
+#tabela{
+    color:#F8CB16 ;
+    
+}
+#tab{
+    background-color: #2E2A29;
+}
+
+#gif{
+    margin-left: 700px;
+    margin-top: -2000px;
+    margin-bottom: 370px;
+}
+#premio{
+    margin-left: 700px;
+    margin-top: -360px;
+    margin-bottom: 100px;
+}
+#link{
+    margin-top: 70px;
+    margin-bottom: -70px;
+    margin-left: 10px;
+}
